@@ -22,6 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.10</java.version>
+		<ajavahtmlrenderer.version>1.0.3</ajavahtmlrenderer.version>
 	</properties>
 
 	<dependencies>
@@ -43,7 +44,7 @@
 		<dependency>
 			<groupId>se.artcomputer.html</groupId>
 			<artifactId>ajavahtmlrenderer</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>${ajavahtmlrenderer.version}</version>
 		</dependency>
 	</dependencies>
 
