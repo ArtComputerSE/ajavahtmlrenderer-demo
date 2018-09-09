@@ -11,6 +11,7 @@
 
     <modules>
         <module>demo</module>
+        <module>nanoserver</module>
     </modules>
 
     <licenses>
@@ -23,7 +24,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/ArtcomputerSE/ajavahtmlrenderer-demo.git</connection>
-        <url>https://github.com/ArtcomputerSE/ajavahtmlrenderer</url>
+        <url>https://github.com/ArtcomputerSE/ajavahtmlrenderer-demo</url>
     </scm>
 
     <developers>
