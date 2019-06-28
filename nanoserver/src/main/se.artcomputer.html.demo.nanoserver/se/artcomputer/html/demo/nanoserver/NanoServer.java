@@ -22,6 +22,7 @@ public class NanoServer {
         httpServer.createContext(HomePage.path(), new HomePage().handler());
         httpServer.createContext(NextPage.path(), new NextPage().handler());
         httpServer.createContext(FormPage.path(), new FormPage().handler());
+        httpServer.createContext(FormAction.path(), new FormAction().handler());
         httpServer.start();
     }
 

@@ -24,7 +24,7 @@ class FormPage extends NanoPage {
                                         text("Here we have a form and your job is to fill it in.")
                                 ),
                                 form(
-                                        attributes(action("/formaction")),
+                                        attributes(action(FormAction.path())),
                                         div(text("Form content")),
                                         div(
                                                 text("First name: "),
